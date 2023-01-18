@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "jq": "^1.7.2",
+    "jquery": "^3.6.3",
+    "js": "^0.1.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.8.3",
+    "validator": "^13.7.0"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "postman.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e js,hbs"
+  },
+  "keywords": [],
+  "author": "Niranjan Joshi",
+  "license": "ISC",
+  "description": ""
+}
